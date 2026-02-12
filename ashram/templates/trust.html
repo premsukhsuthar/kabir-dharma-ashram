@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+
+<div class="page-header">
+    <h1>{% trans "The Trust" %}</h1>
+</div>
+
+<div class="section">
+    <p> "Kabir Dharma Ashram & Trust is a registered charitable organization
+        working for spiritual upliftment and social welfare." 
+    </p>
+
+    <div class="card-grid">
+        <div class="card">{% trans "Spiritual Education" %}</div>
+        <div class="card">{% trans "Humanitarian Activities" %}</div>
+        <div class="card">{% trans "Cultural Preservation" %}</div>
+    </div>
+</div>
+
+{% endblock %}

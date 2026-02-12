@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+
+<div class="page-header">
+    <!-- <h1>{% trans "Support the Ashram" %}</h1> -->
+</div>
+
+<div class="section">
+    <p>{% trans "Your contribution helps us continue spiritual and social service." %}</p>
+
+    {% if donation %}
+    <div class="card">
+        <p><strong>Account Name:</strong> {{ donation.account_name }}</p>
+        <p><strong>Bank:</strong> {{ donation.bank_name }}</p>
+        <p><strong>Account No:</strong> {{ donation.account_number }}</p>
+        <p><strong>IFSC:</strong> {{ donation.ifsc_code }}</p>
+        <p><strong>UPI:</strong> {{ donation.upi_id }}</p>
+    </div>
+    {% endif %}
+</div>
+
+{% endblock %}

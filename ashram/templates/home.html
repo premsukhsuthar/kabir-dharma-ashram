@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+
+<div class="page-header">
+    <h1>{% trans "Kabir Dharma Ashram" %}</h1>
+    <p>{% trans "Walking the path of truth, simplicity & humanity" %}</p>
+</div>
+
+<div class="section">
+    <div class="card-grid">
+        <div class="card">
+            <h3>{% trans "Teachings of Kabir" %}</h3>
+            <p>{% trans "Universal wisdom beyond caste, creed, and religion." %}</p>
+        </div>
+        <div class="card">
+            <h3>{% trans "Satsang & Events" %}</h3>
+            <p>{% trans "Regular spiritual gatherings and discourses." %}</p>
+        </div>
+        <div class="card">
+            <h3>{% trans "Service to Society" %}</h3>
+            <p>{% trans "Helping humanity through compassion and seva." %}</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+

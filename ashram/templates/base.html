@@ -1,0 +1,48 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% trans "Kabir Dharma Ashram" %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">🛕 {% trans "Kabir Dharma Ashram" %}</div>
+
+    <nav>
+        <a href="/">{% trans "Home" %}</a>
+        <a href="/kabir/">{% trans "Kabir" %}</a>
+        <a href="/ashram/">{% trans "Ashram" %}</a>
+        <a href="/trust/">{% trans "Trust" %}</a>
+        <a href="/events/">{% trans "Events" %}</a>
+        <a href="/donate/">{% trans "Donate" %}</a>
+        <a href="/gallery/">{% trans "Gallery" %}</a>
+        <a href="/contact/">{% trans "Contact" %}</a>
+    </nav>
+
+    <form action="{% url 'set_language' %}" method="post" class="lang-form">
+        {% csrf_token %}
+        <input type="hidden" name="next" value="{{ request.path }}">
+        <select name="language" onchange="this.form.submit()">
+            <option value="en" {% if request.LANGUAGE_CODE == 'en' %}selected{% endif %}>English</option>
+            <option value="hi" {% if request.LANGUAGE_CODE == 'hi' %}selected{% endif %}>हिंदी</option>
+
+
+        </select>
+    </form>
+</header>
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+<footer>
+    <p>Current language: {{ request.LANGUAGE_CODE }}</p>
+
+    © {% trans "Kabir Dharma Ashram & Trust" %}
+</footer>
+
+</body>
+</html>

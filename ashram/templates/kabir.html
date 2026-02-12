@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+
+<div class="page-header">
+    <h1>{% trans "Kabir Sahib" %}</h1>
+</div>
+
+<div class="section">
+    <p>
+        {% trans "Sant Kabir Sahib was a mystic poet who taught unity, truth, and inner devotion." %}
+    </p>
+
+    <div class="card-grid">
+        <div class="card">{% trans "Truth is within you" %}</div>
+        <div class="card">{% trans "God is one, paths are many" %}</div>
+        <div class="card">{% trans "Love is the highest worship" %}</div>
+    </div>
+</div>
+
+{% endblock %}
+

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+
+<div class="page-header">
+    <h1>{% trans "The Ashram" %}</h1>
+</div>
+
+<div class="section">
+    <p>
+        {% trans "Kabir Dharma Ashram is a peaceful place for satsang, meditation, and service." %}
+    </p>
+
+    <div class="card-grid">
+        <div class="card">{% trans "Daily Satsang" %}</div>
+        <div class="card">{% trans "Meditation Programs" %}</div>
+        <div class="card">{% trans "Community Service" %}</div>
+    </div>
+</div>
+
+{% endblock %}
+

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+<h1 id="gall">{% trans "The gallery" %}</h1>
+
+<div class="gallery">
+    {% for img in images %}
+        <div class="gallery-item">
+            <img src="{{ img.image.url }}" alt="{{ img.title }}" class="imgbox">
+            {% if img.title %}
+                <p>{{ img.title }}</p>
+            {% endif %}
+        </div>
+    {% empty %}
+        <p>{% trans "Image is not available" %}</p>
+    {% endfor %}
+</div>
+{% endblock %}
