@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-u)1odq2v6pfr$r!*fy9$ry-_(-kcluw%)slt4xgxvy0ev0j0m-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['kabir-dharma-ashram.onrender.com']
 
 # Application definition
