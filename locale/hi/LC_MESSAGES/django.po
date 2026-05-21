@@ -18,27 +18,27 @@ msgstr "आश्रम"
 #: .\ashram\templates\ashram.html:11
 msgid ""
 "Kabir Dharma Ashram is a peaceful place for satsang, meditation, and service."
-msgstr ""
+msgstr "संत कबीर साहब एक रहस्यवादी कवि थे जिन्होंने एकता, सत्य और आंतरिक भक्ति की शिक्षा दी।"
 
 #: .\ashram\templates\ashram.html:15
 msgid "Daily Satsang"
-msgstr ""
+msgstr "दैनिक पाठ"
 
 #: .\ashram\templates\ashram.html:16
 msgid "Meditation Programs"
-msgstr ""
+msgstr "ध्यान कार्यक्रम"
 
 #: .\ashram\templates\ashram.html:17
 msgid "Community Service"
-msgstr ""
+msgstr "सामुदायिक सेवा"
 
 #: .\ashram\templates\base.html:6 .\ashram\templates\base.html:44
 msgid "Kabir Dharma Ashram & Trust"
 msgstr "कबीर धर्म आश्रम एवं ट्रस्ट"
 
 #: .\ashram\templates\base.html:12 .\ashram\templates\home.html:6
-msgid "Kabir Dharma Ashram"
-msgstr "कबीर धर्म आश्रम"
+msgid "Satguru Kabir Dharma Ashram"
+msgstr "satguru कबीर धर्म आश्रम"
 
 #: .\ashram\templates\base.html:15
 msgid "Home"
@@ -78,7 +78,7 @@ msgstr "हमसे संपर्क करें"
 
 #: .\ashram\templates\contact.html:11
 msgid "🙏 Thank you for reaching out. We will contact you soon."
-msgstr ""
+msgstr "🙏 संपर्क करने के लिए धन्यवाद। हम आपसे शीघ्र ही संपर्क करेंगे।"
 
 #: .\ashram\templates\contact.html:19
 msgid "Send Message"
@@ -86,11 +86,11 @@ msgstr "संदेश भेजें"
 
 #: .\ashram\templates\donate.html:6
 msgid "Support the Ashram"
-msgstr ""
+msgstr "आश्रम का समर्थन करें"
 
 #: .\ashram\templates\donate.html:10
 msgid "Your contribution helps us continue spiritual and social service."
-msgstr ""
+msgstr "आपका योगदान हमें आध्यात्मिक और सामाजिक सेवा जारी रखने में मदद करता है।"
 
 #: .\ashram\templates\events.html:6
 msgid "Events & Satsang"
@@ -98,7 +98,7 @@ msgstr "कार्यक्रम एवं सत्संग"
 
 #: .\ashram\templates\events.html:17
 msgid "No upcoming events."
-msgstr ""
+msgstr "कोई आगामी आयोजन नहीं."
 
 #: .\ashram\templates\gallery.html:4
 msgid "The gallery"
@@ -106,7 +106,7 @@ msgstr "गैलरी"
 
 #: .\ashram\templates\gallery.html:15
 msgid "Image is not available"
-msgstr ""
+msgstr "छवि उपलब्ध नहीं है"
 
 #: .\ashram\templates\home.html:7
 msgid "Walking the path of truth, simplicity & humanity"
